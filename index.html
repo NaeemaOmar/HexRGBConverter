@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HEXtoRGB converter</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="/CSS/index.css">
+</head>
+<body class="brighttGreenBg">
+    <div class="container">
+        <h1 class="text-center text-capitalize mt-5 darkestGreenTxt"> Welcome!</h1>
+        <h2 class="darkestGreenTxt">If you would like to convert hexadecimal colors to RGB form, please use the converter below</h2>
+    </div>
+    <div class="container border p-5 position-absolute top-50 start-50 translate-middle darkestGreenBg rounded-5 boxShadow maxWidth mx-1">
+        <div class="d-flex justify-content-center">
+            <p class="brighttGreenTxt text-center border maxWidth">Please enter the 6 digits of the hex color without the #</p>
+        </div>
+        <div class="d-flex justify-content-center maxWidth">
+            <input type="text" name="" class="mx-5 brighttGreenBg" data-hexNumbers>
+        </div>
+        <div class="d-flex justify-content-center mt-3">
+            <button class="brighttGreenBg darkestGreenTxt" id="convertBtn">Convert to RGB</button>
+        </div>
+        <div class="d-flex justify-content-center mt-3">
+            <p class="brighttGreenTxt text-center border maxWidth" id="result"></p>
+        </div>
+    </div>
+    <script src="/JS/index.js"></script>
+</body>
+</html>
